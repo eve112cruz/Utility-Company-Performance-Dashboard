@@ -28,7 +28,7 @@ Below is a summary of the transformations performed:
 I kept the original dara intact by creating a duplicate table and applying all cleaning steps to the copy.
 ---
 ### POWER BI DASHBOARD DEVELOPMENT
-After cleaning and standardizing the dataset in SQL, I imported the data into Power BI and built a dashboard to summarize utility company performance.
+After cleaning and standardizing the dataset in SQL, I imported the data into Power BI and built a dashboard to summarize utility-company performance.
 ### Created DAX Measures
  To calculate KPIs and make the dashboard dynamic, I created several DAX measures, includig:
   - Total Revenue
@@ -47,7 +47,14 @@ Adding the measures made the dashboard easier to update and helped everything ru
 ### KEY INSIGHT
 ~ Water customers brought in the most revenue overall.
 ~ A few states, like Maryland and Minnesota, had much higher energy usage than others.
-~ Most customers are active, but Deliquent accounts still make up 
+~ Most customers were Active (230 accounts), with Inactive (48) and Delinquent (28) customers making up the rest.
+This shows that most people are keeping their accounts in good standing.
+~ Revenue fluctuates year to year, showing that performance is not always consistent
+~ Customer distribution varies across the U.S., with some states having more customers or higher usage levels.
+---
+
+### KEY TAKEAWAY
+This project gave me hands-on experience cleaning data with SQL and visualizing it in Power BI to highlight important company performance metrics. I learned how to create useful DAX measures, design a structured dashboard layout, and turn cleaned data into easy to understand insights.
 
 
 
